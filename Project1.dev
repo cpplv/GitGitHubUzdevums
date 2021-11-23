@@ -28,8 +28,8 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=1
-CompilerSettings=10000000c0000000001000000
-UnitCount=4
+CompilerSettings=1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0
+UnitCount=6
 
 [VersionInfo]
 Major=1
@@ -81,7 +81,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit5]
-FileName=Andrejs.cpp
+FileName=kalvis.h
 CompileCpp=1
 Folder=
 Compile=1
@@ -92,6 +92,16 @@ BuildCmd=
 
 [Unit2]
 FileName=Name.h
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit6]
+FileName=kalvis.cpp
 CompileCpp=1
 Folder=
 Compile=1
