@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Name.h"
 #include "Andrejs.h"
+#include "Alina.h"
+
 using namespace std;
 
 int main()
