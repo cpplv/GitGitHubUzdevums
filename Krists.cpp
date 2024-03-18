@@ -1,20 +1,20 @@
 #include <iostream>
 #include "Name.h"
-#include "Andrejs.h"
+#include "Krists.h"
 
 using namespace std;
 
-Andrejs::Andrejs(string n)
+Krists::Krists(string n)
 {
 	name=n;
 }
 
-void Andrejs::setName(string n)
+void Krists::setName(string n)
 {
 	name=n;
 }
 
-void Andrejs::Print() const
+void Krists::Print() const
 {
 	cout << name << endl;
 }
