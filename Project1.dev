@@ -2,7 +2,7 @@
 FileName=Project1.dev
 Name=Project1
 Type=1
-Ver=2
+Ver=1
 ObjFiles=
 Includes=
 Libs=
@@ -19,7 +19,7 @@ ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
 OverrideOutput=0
-OverrideOutputName=
+OverrideOutputName=Project1.exe
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -27,9 +27,9 @@ CommandLine=
 Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
-CompilerSet=1
-CompilerSettings=10000000c0000000001000000
-UnitCount=4
+CompilerSet=0
+CompilerSettings=10000000c0000000001000
+UnitCount=6
 
 [VersionInfo]
 Major=1
@@ -81,9 +81,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit5]
-FileName=Andrejs.cpp
+FileName=Mariss.cpp
 CompileCpp=1
-Folder=
+Folder=Project1
 Compile=1
 Link=1
 Priority=1000
@@ -94,6 +94,16 @@ BuildCmd=
 FileName=Name.h
 CompileCpp=1
 Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit6]
+FileName=Mariss.h
+CompileCpp=1
+Folder=Project1
 Compile=1
 Link=1
 Priority=1000
